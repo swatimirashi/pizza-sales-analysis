@@ -38,7 +38,7 @@ This project analyzes one year of pizza sales to understand customer behavior, s
 
 ## 💡 SQL Performance Tips
 - Use **JOINs** instead of subqueries  
-- **Index key columns** (`order_id`, `pizza_id`, `date`)  
+- **Index key columns** (`order_id`, `pizza_id`, `date`, `time`)  
 - **Filter early** with WHERE  
 - **Select only required columns**  
 - Use **EXPLAIN** to check query execution  

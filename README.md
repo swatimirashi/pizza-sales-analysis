@@ -11,7 +11,7 @@ This project analyzes one year of pizza sales to understand customer behavior, s
 - **Pizzas** → Pizza size and price (`pizza_id`, `pizza_type_id`, `size`, `price`)  
 - **Pizza_Types** → Pizza names and ingredients (`pizza_type_id`, `name`, `category`, `ingredients`)  
 
-(All four tables are in the pizza-sales-dataset folder)
+(All four tables are in the `pizza-sales-dataset` folder)
 
 ---
 

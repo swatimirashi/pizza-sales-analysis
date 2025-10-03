@@ -46,11 +46,11 @@ This project analyzes one year of pizza sales to understand customer behavior, s
 
 ---
 
-## ✨ Takeaway
-- Efficiently analyze large datasets  
-- Generate actionable business insights  
-- Optimize operations (menu, staffing, seating)  
-- Communicate results clearly to managers  
+## ✨ Project Impact
+- Analyzed **21,000+ orders** to extract actionable business insights.  
+- Identified **peak hours and busiest days**, helping optimize staffing and kitchen operations.  
+- Recommended **menu improvements and seating management** to increase revenue and efficiency.  
+- Demonstrated **SQL performance optimization** techniques for large datasets.  
 
----
+
 

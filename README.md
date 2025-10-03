@@ -1,43 +1,54 @@
-## 🍕 Pizza Sales SQL Analysis Project
+# 🍕 Pizza Sales Analysis Using SQL
 
-### 📌 Overview
-This project involves analyzing a pizza sales dataset using **MySQL** to uncover business insights and trends that could help improve sales and customer engagement.
+## 📌 Project Overview
+This project analyzes one year of pizza sales to understand customer behavior, sales patterns, and operational efficiency using SQL. The insights help optimize staffing, menu performance, kitchen operations, and seating.
 
-### 📂 Dataset
-- Source: GitHub (4 tables)
-  - `orders`
-  - `order_details`
-  - `pizzas`
-  - `pizza_types`
+---
 
-### 🧠 Key SQL Skills Used
-- `JOIN`, `GROUP BY`, `ORDER BY`, `LIMIT`
-- Aggregate functions: `SUM`, `AVG`, `COUNT`
-- Subqueries & nested SELECTs
-- Window functions: `RANK()`, `SUM() OVER()`
+## 📂 Dataset Overview
+- **Orders** → Basic order details (`order_id`, `date`, `time`)  
+- **Order_Details** → Pizzas in each order (`order_id`, `pizza_id`, `quantity`)  
+- **Pizzas** → Pizza size and price (`pizza_id`, `pizza_type_id`, `size`, `price`)  
+- **Pizza_Types** → Pizza names and ingredients (`pizza_type_id`, `name`, `category`, `ingredients`)  
 
-### 🔍 Insights Extracted
-- Total orders, total revenue, average order value
-- Daily & cumulative revenue trends
-- Top 5 most & least ordered pizzas
-- High-revenue premium pizzas
-- Most preferred pizza size and category
-- Order distribution by hour/day of week
+---
 
-### ✅ Outcome
-This project highlights my practical SQL skills and ability to turn raw relational data into valuable business strategies.
+## 🛠 SQL Queries
+- Orders by weekday  
+- Orders by hour  
+- Peak hours pizza orders  
+- Best & worst-selling pizzas  
+- Average order value  
+- Tables needed per order  
 
+(All queries are in `queries.sql`)
 
+---
 
-## 🙋‍♀️ About Me
+## 📊 Key Insights
+- **Busiest Days & Hours:** Fridays, 12–1 PM and 5–6 PM  
+- **Pizza Demand:** ~19 pizzas per hour at lunch, 15 at dinner  
+- **Menu Performance:** Classic Deluxe top seller, Brie Carre lowest  
+- **Customer Spending:** Avg order = $38.31; yearly revenue ≈ $817,860  
+- **Seating Usage:** 15 tables (60 seats) often full or over capacity  
 
-I'm **Swati Mirashi**, an MSc IMCA graduate from **Fergusson College, Pune**. I have a strong interest in working with data, solving real-world problems, and continuously learning new technologies.  
-Skilled in **Python, SQL, Excel, and Power BI**, I'm passionate about applying my knowledge to practical, impactful projects.
+---
 
-📍 From Sindhudurg | 💻 Eager to grow in data-focused and tech-driven fields
+## 💡 SQL Performance Tips
+- Use **JOINs** instead of subqueries  
+- **Index key columns** (`order_id`, `pizza_id`, `date`)  
+- **Filter early** with WHERE  
+- **Select only required columns**  
+- Use **EXPLAIN** to check query execution  
+- **Batch heavy calculations** in temporary tables  
 
-### 📫 Contact Me
+---
 
-- 🔗 https://www.linkedin.com/in/swatimirashi
-- 📧 Email:  swatimirashi298@gmail.com 
-- 💻 GitHub: https://github.com/swatimirashi
+## ✨ Takeaway
+- Efficiently analyze large datasets  
+- Generate actionable business insights  
+- Optimize operations (menu, staffing, seating)  
+- Communicate results clearly to managers  
+
+---
+
